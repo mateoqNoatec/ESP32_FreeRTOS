@@ -13,6 +13,12 @@ void task1 (void *pvArgs)
     {
         xQueueSend(queueHandle, &data, pdMS_TO_TICKS(1000));
         vTaskDelay(pdMS_TO_TICKS(500));
+        if(data==100)
+        {
+            data=0;
+        }
+        data++;
+        
     }
 }
 
