@@ -1,8 +1,1 @@
-0000000000000000000000000000000000000000 381ca208591d8000070b7485c5d679ef339e0e05 Mateo <mateo.quintero@noatec.co> 1676911296 -0500	commit (initial): Initial commit
-381ca208591d8000070b7485c5d679ef339e0e05 01e06e594a455e979e475a902b700cc07f6cd91d Mateo <mateo.quintero@noatec.co> 1676911844 -0500	commit: Task creation
-01e06e594a455e979e475a902b700cc07f6cd91d 53dfa15dea9c5131da52cd6541a19bcb6324d994 Mateo <mateo.quintero@noatec.co> 1676989842 -0500	commit: I dont know what changed
-53dfa15dea9c5131da52cd6541a19bcb6324d994 5ecbec0d78b3ac5d179de54c821f2f5a13fb7111 Mateo <mateo.quintero@noatec.co> 1676990743 -0500	commit: 2 tasks running
-5ecbec0d78b3ac5d179de54c821f2f5a13fb7111 2687b7886e6ca5817968fbb469d97b20c4ed7f8b Mateo <mateo.quintero@noatec.co> 1676991659 -0500	commit: Task template
-2687b7886e6ca5817968fbb469d97b20c4ed7f8b 00652207ea9598fef39e14ace31e6a5bfbe1c5f1 Mateo <mateo.quintero@noatec.co> 1676993962 -0500	commit: Simple queue
-00652207ea9598fef39e14ace31e6a5bfbe1c5f1 fdff5a10a0c1a1ea234bd3f80fe8e6062b553874 Mateo <mateo.quintero@noatec.co> 1676994678 -0500	commit: Data modified
-fdff5a10a0c1a1ea234bd3f80fe8e6062b553874 78f0ed0b74f09325b302443660431edba1865505 Mateo <mateo.quintero@noatec.co> 1677601442 -0500	commit: Binary semaphore exmple
+50d34e4701e341e4978feefd9e3e6fb9982152cc
