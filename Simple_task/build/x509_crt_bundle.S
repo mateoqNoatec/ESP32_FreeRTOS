@@ -1,4 +1,4 @@
-/* * Data converted from C:/GitHub/ESP32_FreeRTOS/Simple_task/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from C:/Users/mateo/Documents/GitHub/ESP32_FreeRTOS/Simple_task/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 .section .rodata.embedded

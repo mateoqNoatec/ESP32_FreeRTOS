@@ -4,19 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "C:/Espressif/frameworks/esp-idf-v5.0-2/components/bootloader/subproject"
-  "C:/GitHub/ESP32_FreeRTOS/Simple_task/build/bootloader"
-  "C:/GitHub/ESP32_FreeRTOS/Simple_task/build/bootloader-prefix"
-  "C:/GitHub/ESP32_FreeRTOS/Simple_task/build/bootloader-prefix/tmp"
-  "C:/GitHub/ESP32_FreeRTOS/Simple_task/build/bootloader-prefix/src/bootloader-stamp"
-  "C:/GitHub/ESP32_FreeRTOS/Simple_task/build/bootloader-prefix/src"
-  "C:/GitHub/ESP32_FreeRTOS/Simple_task/build/bootloader-prefix/src/bootloader-stamp"
+  "C:/Users/mateo/esp/esp-idf/components/bootloader/subproject"
+  "C:/Users/mateo/Documents/GitHub/ESP32_FreeRTOS/Simple_task/build/bootloader"
+  "C:/Users/mateo/Documents/GitHub/ESP32_FreeRTOS/Simple_task/build/bootloader-prefix"
+  "C:/Users/mateo/Documents/GitHub/ESP32_FreeRTOS/Simple_task/build/bootloader-prefix/tmp"
+  "C:/Users/mateo/Documents/GitHub/ESP32_FreeRTOS/Simple_task/build/bootloader-prefix/src/bootloader-stamp"
+  "C:/Users/mateo/Documents/GitHub/ESP32_FreeRTOS/Simple_task/build/bootloader-prefix/src"
+  "C:/Users/mateo/Documents/GitHub/ESP32_FreeRTOS/Simple_task/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "C:/GitHub/ESP32_FreeRTOS/Simple_task/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "C:/Users/mateo/Documents/GitHub/ESP32_FreeRTOS/Simple_task/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "C:/GitHub/ESP32_FreeRTOS/Simple_task/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "C:/Users/mateo/Documents/GitHub/ESP32_FreeRTOS/Simple_task/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

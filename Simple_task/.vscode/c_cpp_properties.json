@@ -2,15 +2,11 @@
     "configurations": [
         {
             "name": "ESP-IDF",
-            "compilerPath": "C:\\Espressif\\tools\\xtensa-esp32-elf\\esp-2022r1-11.2.0\\xtensa-esp32-elf\\bin\\xtensa-esp32-elf-gcc.exe",
+            "compilerPath": "C:\\Users\\mateo\\.espressif\\tools\\xtensa-esp32-elf\\esp-2022r1-11.2.0\\xtensa-esp32-elf\\bin\\xtensa-esp32-elf-gcc.exe",
             "cStandard": "c11",
             "cppStandard": "c++17",
             "includePath": [
-                "${config:idf.espIdfPath}/components/**",
-                "${config:idf.espIdfPathWin}/components/**",
-                "${config:idf.espAdfPath}/components/**",
-                "${config:idf.espAdfPathWin}/components/**",
-                "${workspaceFolder}/**"
+                "C:/Users/mateo/esp/esp-idf/components/**"
             ],
             "browse": {
                 "path": [
@@ -18,7 +14,8 @@
                     "${config:idf.espIdfPathWin}/components",
                     "${config:idf.espAdfPath}/components/**",
                     "${config:idf.espAdfPathWin}/components/**",
-                    "${workspaceFolder}"
+                    "${workspaceFolder}",
+                    "C:\\Users\\mateo\\esp\\esp-idf\\components\\**"
                 ],
                 "limitSymbolsToIncludedHeaders": false
             }

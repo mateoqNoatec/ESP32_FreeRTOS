@@ -7,7 +7,7 @@ void task(void *pvargs)
 {
     while(1)
     {
-        printf("\n\tTasj running...\n");
+        printf("\n\tTask running...\n");
         vTaskDelay(pdMS_TO_TICKS(1000));
     }
 }
